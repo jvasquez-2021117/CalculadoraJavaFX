@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="541.0" prefWidth="263.0" styleClass="fondo" stylesheets="@Calculadora2.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.josevasquez.system.FXMLDocumentController">
+   <children>
+      <Button fx:id="btnMasMenos" layoutX="15.0" layoutY="452.0" mnemonicParsing="false" onAction="#evento" prefHeight="50.0" prefWidth="50.0" styleClass="botonOperaciones" stylesheets="@Calculadora2.css" text="+/-" textFill="#00f832">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="btnCero" layoutX="78.0" layoutY="452.0" mnemonicParsing="false" onAction="#evento" prefHeight="50.0" prefWidth="50.0" styleClass="botonNumeros" stylesheets="@Calculadora2.css" text="0" />
+      <Button fx:id="btnDos" layoutX="78.0" layoutY="392.0" mnemonicParsing="false" onAction="#evento" prefHeight="50.0" prefWidth="50.0" styleClass="botonNumeros" stylesheets="@Calculadora2.css" text="2" />
+      <Button fx:id="btnCuatro" layoutX="15.0" layoutY="332.0" mnemonicParsing="false" onAction="#evento" prefHeight="50.0" prefWidth="50.0" styleClass="botonNumeros" stylesheets="@Calculadora2.css" text="4" />
+      <Button fx:id="btnTres" layoutX="139.0" layoutY="392.0" mnemonicParsing="false" onAction="#evento" prefHeight="50.0" prefWidth="50.0" styleClass="botonNumeros" stylesheets="@Calculadora2.css" text="3" />
+      <Button fx:id="btnUno" layoutX="15.0" layoutY="392.0" mnemonicParsing="false" onAction="#evento" prefHeight="50.0" prefWidth="50.0" styleClass="botonNumeros" stylesheets="@Calculadora2.css" text="1" />
+      <Button fx:id="btnSiete" layoutX="15.0" layoutY="272.0" mnemonicParsing="false" onAction="#evento" prefHeight="50.0" prefWidth="50.0" styleClass="botonNumeros" stylesheets="@Calculadora2.css" text="7" />
+      <Button fx:id="btnSeis" layoutX="139.0" layoutY="332.0" mnemonicParsing="false" onAction="#evento" prefHeight="50.0" prefWidth="50.0" styleClass="botonNumeros" stylesheets="@Calculadora2.css" text="6" />
+      <Button fx:id="btnCinco" layoutX="78.0" layoutY="332.0" mnemonicParsing="false" onAction="#evento" prefHeight="50.0" prefWidth="50.0" styleClass="botonNumeros" stylesheets="@Calculadora2.css" text="5" />
+      <Button fx:id="btnOcho" layoutX="78.0" layoutY="272.0" mnemonicParsing="false" onAction="#evento" prefHeight="50.0" prefWidth="50.0" styleClass="botonNumeros" stylesheets="@Calculadora2.css" text="8" />
+      <Button fx:id="btnNueve" layoutX="139.0" layoutY="272.0" mnemonicParsing="false" onAction="#evento" prefHeight="50.0" prefWidth="50.0" styleClass="botonNumeros" stylesheets="@Calculadora2.css" text="9" />
+      <Button fx:id="btnPunto" layoutX="139.0" layoutY="452.0" mnemonicParsing="false" onAction="#evento" prefHeight="50.0" prefWidth="50.0" styleClass="botonNumeros" stylesheets="@Calculadora2.css" text="." />
+      <Button fx:id="btnIgual" layoutX="199.0" layoutY="452.0" mnemonicParsing="false" onAction="#evento" prefHeight="50.0" prefWidth="50.0" styleClass="botonIgual" stylesheets="@Calculadora2.css" text="=" />
+      <Button fx:id="btnMas" layoutX="199.0" layoutY="392.0" mnemonicParsing="false" onAction="#evento" prefHeight="50.0" prefWidth="50.0" styleClass="botonOperaciones" stylesheets="@Calculadora2.css" text="+" textFill="#00f832">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="btnMenos" layoutX="199.0" layoutY="332.0" mnemonicParsing="false" onAction="#evento" prefHeight="50.0" prefWidth="50.0" styleClass="botonOperaciones" stylesheets="@Calculadora2.css" text="-" textFill="#00f832">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="btnUnoEquis" layoutX="15.0" layoutY="212.0" mnemonicParsing="false" onAction="#evento" prefHeight="50.0" prefWidth="50.0" styleClass="botonOperaciones" stylesheets="@Calculadora2.css" text="1/x" textFill="#00f832">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="btnDivi" layoutX="199.0" layoutY="212.0" mnemonicParsing="false" onAction="#evento" prefHeight="50.0" prefWidth="50.0" styleClass="botonOperaciones" stylesheets="@Calculadora2.css" text="/" textFill="#00f832">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="btnCuadrado" layoutX="78.0" layoutY="212.0" mnemonicParsing="false" onAction="#evento" prefHeight="50.0" prefWidth="50.0" styleClass="botonOperaciones" stylesheets="@Calculadora2.css" text="x²" textFill="#00f832">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="btnRaiz" layoutX="139.0" layoutY="212.0" mnemonicParsing="false" onAction="#evento" prefHeight="50.0" prefWidth="50.0" styleClass="botonOperaciones" stylesheets="@Calculadora2.css" text="√" textFill="#00f832">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="btnMulti" layoutX="199.0" layoutY="272.0" mnemonicParsing="false" onAction="#evento" prefHeight="50.0" prefWidth="50.0" styleClass="botonOperaciones" stylesheets="@Calculadora2.css" text="*" textFill="#00f832">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="btnPorcentaje" layoutX="16.0" layoutY="152.0" mnemonicParsing="false" onAction="#evento" prefHeight="50.0" prefWidth="50.0" styleClass="botonOperaciones" stylesheets="@Calculadora2.css" text="\%" textFill="#00f832">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <TextField fx:id="txtPantalla" alignment="CENTER_RIGHT" layoutX="14.0" layoutY="56.0" prefHeight="74.0" prefWidth="235.0" styleClass="pantalla" stylesheets="@Calculadora2.css">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+      <MenuBar layoutX="14.0" layoutY="12.0" styleClass="MenuBar" stylesheets="@Calculadora2.css">
+        <menus>
+          <Menu mnemonicParsing="false" text="Archivo">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="?">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Button fx:id="btnCE" layoutX="78.0" layoutY="152.0" mnemonicParsing="false" onAction="#evento" prefHeight="50.0" prefWidth="50.0" styleClass="botonOperaciones" stylesheets="@Calculadora2.css" text="CE" textFill="RED">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="btnC" layoutX="140.0" layoutY="152.0" mnemonicParsing="false" onAction="#evento" prefHeight="50.0" prefWidth="50.0" styleClass="botonOperaciones" stylesheets="@Calculadora2.css" text="C" textFill="RED">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Label layoutX="55.0" layoutY="519.0" text="José Marcos Vásquez Román" textFill="WHITE" />
+   </children>
+</Pane>

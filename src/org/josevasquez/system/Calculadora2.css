@@ -1,0 +1,42 @@
+.botonOperaciones {
+	-fx-background-color :  #000000 ;
+	-fx-background-radius : 20 20 20 20;
+}
+
+.botonIgual {
+	-fx-background-color :  #00f832 ;
+	-fx-background-radius : 20 20 20 20;
+}
+
+.botonNumeros {
+	-fx-background-color :  #D3E0C8 ;
+	-fx-background-radius : 20 20 20 20;
+}
+
+.fondo {
+	-fx-background-color :  #31352E ;
+	-fx-background-radius : 0 0 0 0;
+}
+
+.pantalla {
+	-fx-background-color :  #D3E0C8 ;
+	-fx-background-radius : 10 10 10 10;
+}
+
+.MenuBar {
+	-fx-background-color :  #000000 ;
+	-fx-background-radius : 10 10 10 10;
+	-fx-color:white;
+}
+
+.botonNumeros:hover{
+	-fx-background-color: #54B0E1;
+}
+
+.botonOperaciones:hover {
+	-fx-background-color: #859478;
+}
+
+.botonIgual:hover {
+	-fx-background-color: #FF9944;
+}
