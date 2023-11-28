@@ -14,6 +14,6 @@ Calculadora interactiva desarrollada utilizando JavaFX y Scene Builder. Esta cal
 ## Instalación
 ```
 -Descargar repositorio
--Ejecutar archivo "**CalculadoraObjetos2021117**" el cual se encuntra dentro de la carpeta "**dist**"
+-Ejecutar archivo "CalculadoraObjetos2021117" el cual se encuntra dentro de la carpeta "dist"
 ```
 
